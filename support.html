@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <title>サポート | ライムメモ帳</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1a1a1a;
+        --muted: #5a5a5a;
+        --bg: #ffffff;
+        --rule: #e2e2e2;
+        --link: #0066cc;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #e8e8e8;
+          --muted: #a0a0a0;
+          --bg: #16171a;
+          --rule: #33353a;
+          --link: #6ab0ff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 2.5rem 1.25rem 4rem;
+        background: var(--bg);
+        color: var(--fg);
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+          'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif;
+        line-height: 1.85;
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin: 0 0 1.5rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 2.5rem 0 0.75rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--rule);
+      }
+      p {
+        margin: 0.75rem 0;
+      }
+      dl {
+        margin: 0.75rem 0;
+      }
+      dt {
+        font-weight: 700;
+        margin-top: 1rem;
+      }
+      dd {
+        margin: 0.25rem 0 0;
+      }
+      a {
+        color: var(--link);
+      }
+      footer {
+        margin-top: 3.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--rule);
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ライムメモ帳 サポート</h1>
+
+      <p>
+        「ライムメモ帳」に関するご質問・ご要望・不具合のご連絡は、下記メールアドレスへお願いします。
+        個人で開発・運営しているため、返信までお時間をいただく場合があります。
+      </p>
+
+      <h2>お問い合わせ先</h2>
+      <p>
+        メール：<a href="mailto:tekomyu463@cocoro.uk?subject=ライムメモ帳%20お問い合わせ"
+          >tekomyu463@cocoro.uk</a
+        >
+      </p>
+      <p>
+        アプリ内の「設定」→「お問い合わせ」からも、宛先・件名が入力された状態でメール作成画面を開けます。
+      </p>
+
+      <h2>よくある質問</h2>
+      <dl>
+        <dt>メモはどこに保存されますか？</dt>
+        <dd>
+          すべてお使いの端末内にのみ保存されます。外部のサーバーへ送信されることはなく、アカウント登録も不要です。
+        </dd>
+
+        <dt>機種変更でメモを引き継げますか？</dt>
+        <dd>
+          現在のバージョンでは、端末間でのデータ引き継ぎ・バックアップ機能はありません。アプリを削除すると端末内のデータも削除されます。
+        </dd>
+
+        <dt>韻がうまく表示されません。</dt>
+        <dd>
+          本文を母音に自動変換して判定しています。漢字や英字など読みが自動で定まらない部分は、本文の範囲を選択して「手動母音修正」で母音を指定してください。「設定」の「韻と判定する最小母音数」を下げると、より短い一致も韻として表示されます。
+        </dd>
+
+        <dt>データを全部消したい。</dt>
+        <dd>
+          メモ・タグは一覧のスワイプまたは編集画面から個別に削除できます。すべて消す場合はアプリを端末から削除してください。
+        </dd>
+      </dl>
+
+      <h2>動作環境</h2>
+      <p>iOS。現行バージョン：1.0.0</p>
+
+      <footer>ライムメモ帳 &mdash; iOS アプリ</footer>
+    </main>
+  </body>
+</html>
